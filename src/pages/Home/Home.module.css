@@ -1,0 +1,73 @@
+.wrapper_home {
+  background-image: url("../../assets/bodybuilder.jpg");
+  background-size: cover;
+  height: 100vh;
+  position: relative;
+}
+
+.wrapper_content {
+  position: absolute;
+  margin-top: 25vh;
+
+}
+.paragraph {
+  font-size: 2.5rem;
+  color: white;
+  line-height: 1.3;
+  margin-left: 5rem;
+}
+
+.navbar {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1;
+}
+
+.text {
+  color: #a1050d;
+}
+
+.btn_join {
+  padding: 0.4rem;
+  width: 7rem;
+  color: white;
+  background-color: #f40002;
+  border-radius: 0.3rem;
+  border: none;
+  font-size: 1rem;
+  font-family: Arial, Helvetica, sans-serif;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 865px) and (min-width: 0px) {
+  .wrapper_home {
+    background-image: none;
+    background-color: #160309;
+    background-image: url("../../assets/dumbles.webp");
+  }
+  .wrapper_content {
+    margin-top: 2rem;
+  }
+  .paragraph {
+    margin-left: 2rem;
+  }
+  .right_section img {
+    height: auto;
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 300px) {
+  .paragraph {
+    font-size: 2rem;
+  }
+}
+
+@media screen and (max-width: 730px) and (min-width: 500px) {
+  .wrapper_content{
+   margin-left: 8rem;
+   margin-top: 15rem;
+  }
+  
+}

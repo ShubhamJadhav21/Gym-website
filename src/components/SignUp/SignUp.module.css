@@ -1,0 +1,56 @@
+.wrapper {
+  width: fit-content;
+}
+.signup_form {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+}
+input {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  padding: 0.3rem;
+  margin: 1rem;
+  width: 14rem;
+  border: none;
+  border-radius: 0.5rem;
+  outline-color: #b344ad;
+}
+
+.signup_btn {
+  margin-top: 5rem;
+  width: 14rem;
+  border: none;
+  border-radius: 0.5rem;
+  background-color: #0456ac;
+  color: white;
+  padding: 0.3rem;
+  margin: 1rem;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: large;
+}
+.signup_btn:hover {
+  background-color: #0171d3;
+}
+.account {
+  margin: 1rem;
+  display: flex;
+  justify-content: center;
+}
+.error{
+  color: red;
+  position: absolute;
+  bottom: -1.2rem;
+  font-size: .9rem; 
+  left: 1.2rem;
+}
+
+.name_input{
+  position: relative;
+}
+.email_input{
+  position: relative;
+}
+.password_input{
+  position: relative;
+}

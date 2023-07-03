@@ -1,0 +1,19 @@
+.wrapper{
+ 
+ height:15rem ;
+ width: 16rem;
+ margin: 1rem;
+ border-radius: 0.5rem; 
+ color: white;
+}
+.wrapper img{
+    height: 12rem;
+    width: 15rem;
+    border-radius: .5rem;
+}
+.container{
+    display: flex;
+}
+::-webkit-scrollbar{
+    display: none;
+}

@@ -1,0 +1,44 @@
+.wrapper_mobileNav {
+  display: flex;
+  justify-content: space-between;
+  background-color: aliceblue;
+  padding: 1rem;
+  font-family: sans-serif;
+  flex-grow: 1;
+  max-width: 100vw;
+  background-color: white;
+  position: relative;
+}
+.logo {
+  color: #160e18;
+}
+.gym {
+  color: #39a0c5;
+}
+.menu {
+  font-size: 1.5rem;
+}
+.hand_logo {
+  margin-left: 0.2rem;
+  font-size: 1.3rem;
+}
+.mobile_view{
+  min-height: 100vh;
+  width: 100vw;
+  background-color: #39a0c5;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  gap: 5rem;
+  font-size: 2rem;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  align-items: center;
+}
+.close_menu{
+  font-size: 2rem;
+  position: absolute;
+  right: 0;
+}
+.nav_list{
+  color: #160e18;
+}

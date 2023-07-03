@@ -1,0 +1,85 @@
+.wrapper_pricingcards {
+  display: flex;
+}
+.pricing_card {
+  width: 18rem;
+  height: 30rem;
+  background-color: #343436;
+  margin: 2rem;
+  color: white;
+  position: relative;
+  margin-top: 7rem;
+  transition: transform 0.3s ease-in-out;
+}
+.pricing_card:hover {
+  transform: scale(1.2);
+  background-color: white;
+  color: black;
+}
+.pricing_card:hover .check_mark {
+  color: #2da769;
+}
+.pricing_card:hover .btn button {
+  background-color: #2da769;
+}
+.pricing_card h4 {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  margin-top: 1rem;
+}
+.pricing_card div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.pricing_card div i {
+  font-size: 3rem;
+  color: #2da769;
+}
+.features {
+  list-style-type: none;
+  margin-top: 3rem;
+  line-height: 2;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.btn button {
+  position: absolute;
+  width: 80%;
+  padding: 0.7rem;
+  bottom: 2rem;
+  border: none;
+  border-radius: 2px;
+}
+.btn button:hover {
+  color: white;
+
+  background-color: #00ab21;
+}
+.check_mark {
+  padding: 0.7rem;
+}
+
+@media screen and (max-width: 750px) {
+  .wrapper_pricingcards {
+    flex-direction: column;
+  }
+  .pricing_card{
+    width: 80%;
+  }
+  .features{
+    font-size: small;
+  }
+  .pricing_card div{
+    font-size: medium;
+  }
+}
+@media screen  and (max-width:680px) and (min-width:350px){
+ .pricing_card{
+  width: 18rem;
+  height: 30rem;
+ }  
+ 
+ 
+}
+
+
